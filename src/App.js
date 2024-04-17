@@ -1,7 +1,8 @@
+import Todo from '../src/components/todo/todo'
 function App() {
   return (
     <div>
-      hello world
+      <Todo/>
     </div>
   );
 }
