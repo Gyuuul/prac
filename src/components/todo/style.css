@@ -1,0 +1,30 @@
+div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+}
+
+li {
+    width: 150px;
+    border: 1px solid brown;
+    margin-bottom: 10px;
+}
+
+#memotitle {
+    height: 30px;
+}
+
+#memocontent {
+    height: 70px;
+}
+
+#memobutton {
+    width: 100px;
+    height: 30px;
+}
+
+#memolists {
+    list-style: none;
+}
