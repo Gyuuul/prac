@@ -1,0 +1,47 @@
+section{
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+div{
+    display: flex;
+    /* position: fixed; */
+    flex-direction: column;
+    /* align-items: ; */
+    justify-content: center;
+    width: 400px;
+    gap: 10px;
+}
+
+#memotitle{
+    padding: 15px;
+}
+
+#memocontent{
+    padding: 15px;
+    height: 200px;
+    resize: none;
+}
+
+#memobutton{
+    padding: 15px;
+}
+
+li{
+    border: 2px solid lightpink;
+    padding: 10px;
+    list-style: none;
+    margin-bottom: 50px;
+}
+
+strong{
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+small{
+    font-size: 10px;
+    color: gray;
+}
