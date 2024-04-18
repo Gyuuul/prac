@@ -1,0 +1,156 @@
+body, h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 35px;
+    color: rgba(217, 118, 82, 1);
+}
+
+input {
+    padding: 15px 20px 15px 20px;
+    width: 300px;
+    border-radius: 30px;
+}
+
+button {
+    padding: 8px 15px 8px 15px;
+    border-radius: 30px;
+    border-color: transparent;
+    color: #fff;
+    background-color: rgba(217, 118, 82, 1);
+}
+
+#main_div {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    overflow-y: scroll;
+}
+
+#haeder_div {
+    max-width: 1700px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: rgba(242, 233, 216, 1);
+}
+
+#logo {
+    float: left;
+    font-size: 18px;
+    padding: 25px 0 0 40px;
+}
+
+#menu_div {
+    float: right;
+    display: flex;
+    gap: 25px;
+    padding: 20px 30px 0 0;
+    font-size: 18px;
+}
+
+#body_div {
+    max-width: 1700px;
+    margin: 0 auto;
+    background-color: rgba(242, 233, 216, 1);
+}
+
+#text_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    height: 380px;
+}
+
+#main-img {
+    height: 385px;
+}
+
+#middle_div {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    height: 380px;
+    padding: 80px;
+    background-color: #fff;
+}
+
+#middle-text-div{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#middle-img-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 80px;
+}
+
+#final-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    padding: 0px 60px 180px 60px;
+    background-color: #fff;
+}
+
+#final-div-img {
+    width: 100%;
+    /* position: relative; */
+}
+
+#box {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+
+    border: 5px solid rgba(38, 49, 64, 1);
+    border-radius: 30px;
+    background-color: rgba(38, 49, 64, 1);
+    
+    height: 200px;
+    width: 1000px;
+    padding: 0 20px 0 20px;
+}
+
+#input-button {
+    position: absolute;
+    left: 85%;
+    transform: translate(15%, 20%);
+}
+
+.box-text{
+    color: #fff;
+}
+
+#footer-div {
+    background-color: #fff;
+    padding: 20px;
+}
+
+#footer-logo {
+    float: left;
+    padding: 20px 0 0 40px;
+}
+
+#footer-menu-div{
+    float: right;
+    display: flex;
+    gap: 25px;
+    padding: 20px 30px 40px 0;
+}
