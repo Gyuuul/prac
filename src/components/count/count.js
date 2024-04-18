@@ -29,7 +29,7 @@ export default function count (){
                     <button type="button" onClick={minusHandler}>-</button>
                 </div>
                 <div>
-                    <p id="plus">{num}</p>
+                    <p id="plus">{addnum}</p>
                     <button type="button" onClick={plusHandler}>+</button>
                 </div>
             </>
